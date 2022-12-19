@@ -15,3 +15,8 @@ function capitalize(string) {
   
   return firstLetter + otherLetters;
 }
+
+// Takes the last letter of a string
+function lastLetter(string) {
+  return string.slice(-1);
+}
