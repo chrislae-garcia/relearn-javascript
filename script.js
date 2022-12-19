@@ -7,3 +7,11 @@ function add7(number) {
 function multiply(number1, number2) {
   return number1 * number2;
 }
+
+// Takes a string and capitalize only the first letter of that string
+function capitalize(string) {
+  let firstLetter = string.slice(0,1).toUpperCase();
+  let otherLetters = string.slice(1).toLowerCase();
+  
+  return firstLetter + otherLetters;
+}
