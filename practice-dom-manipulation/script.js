@@ -30,3 +30,10 @@ p.textContent = 'ME TOO!';
 div.appendChild(p);
 
 container.appendChild(div);
+
+// EVENTS
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', function (e) {
+  console.log(e);
+});
