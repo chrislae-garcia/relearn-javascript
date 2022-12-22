@@ -1,4 +1,11 @@
-const getTheTitles = function() {
+const getTheTitles = function(arrOfObjs) {
+  const arrTitles = [];
+
+  arrOfObjs.forEach(e => {
+    arrTitles.push(e.title);
+  });
+
+  return arrTitles;
 
 };
 
